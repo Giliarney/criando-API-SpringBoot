@@ -95,9 +95,13 @@ padroes-projeto-spring
 ```
 
 ## API Endpoints
+
   Obter Todos os Clientes
+  
   URL: /clientes
+  
   Método: GET
+  
   Resposta:
   ```
   [
@@ -121,8 +125,11 @@ padroes-projeto-spring
 ```
 
 ## Criar um Novo Cliente
+
 URL: /clientes
+
 Método: POST
+
 Corpo da Requisição:
 ```
 {
@@ -130,7 +137,6 @@ Corpo da Requisição:
     "cep": "01001-000"
 }
 ```
-
 Reposta:
 ```
 {
@@ -153,8 +159,11 @@ Reposta:
 
 ## Obter Cliente por ID
 URL: /clientes/{id}
+
 Método: GET
+
 Parâmetros de URL: id - ID do cliente
+
 Resposta:
 ```
 {
